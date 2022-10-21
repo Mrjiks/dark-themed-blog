@@ -16,11 +16,6 @@ function App() {
 	const [theme, setTheme] = useState(getStorageTheme());
 
 	const toggleTheme = () => {
-		// if (theme === 'light-theme') {
-		//   setTheme('dark-theme');
-		// } else {
-		//   setTheme('light-theme');
-		// }
 		setTheme(`${theme === 'light-theme' ? 'dark-theme' : 'light-theme'}`);
 	};
 
@@ -36,7 +31,7 @@ function App() {
 		<main>
 			<nav>
 				<div className='nav-center'>
-					<h1>overreacted</h1>
+					<h1>HWW-code</h1>
 					<button
 						className='btn'
 						onClick={toggleTheme}
